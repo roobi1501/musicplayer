@@ -1,0 +1,67 @@
+.song-item {
+  display: flex;
+  align-items: center;
+  /*gap: 12px;*/
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  /*margin-bottom: 10px;*/
+  background: #fdfdfd;
+}
+
+.song-item:hover {
+  background-color: #acaaaa;
+}
+
+.song-item.playing {
+  background-color: #e6f7ff ; 
+  border-color: #1890ff;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.song-title {
+  margin: 0;       /* if not working remove this line*/
+  font-size: 16px;
+  font-weight: bold;    /*600;*/
+}
+
+.song-artist {
+  margin: 4px 0 0 0;      /* if not working remove this line*/
+  font-size: 14px;
+  color: #666;     
+}
+
+.song-status {
+  margin-top: 6px;          /* if not working remove this line*/
+  font-size: 13px;
+  color: #007bff;
+}
+
+.song-card {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.song-card:hover {
+  background-color: #bbb4b4;
+}
